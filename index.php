@@ -1,9 +1,16 @@
 ﻿
 <?php
+$a = 1;
+$b = 2;
 
-$a=4;
+function Suma()
+{
+    global $a, $b;
 
-if $a>1 then $b=3;
+    $b = $a + $b;
+}
 
+Suma();
 echo $b;
+
 ?>
