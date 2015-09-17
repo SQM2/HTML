@@ -1,7 +1,7 @@
 ﻿<?php
 $a = 1;
 $b = 2;
-function Suma();
+function Suma()
 {
     global $a, $b;
     $b = $a + $b;
